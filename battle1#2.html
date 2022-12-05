@@ -1,33 +1,32 @@
 <div id="a"></div>
 <div id="b"></div>
 <div id="c"></div>
- <div id="d"></div>
-
+<div id="d"></div>
 <style>
   body {
     margin: 0;
     background: #62374e;
   }
-  div {
+  #a,#b,#c,#d{
+    position:absolute;
     width: 50px;
     height: 50px;
     background: #fdc57b;
-    display: inline-block;
   }
-  #a {
-    margin-top: 50px;
-    margin-left: 50px;
+  #a{
+    top:50;
+    left:50;
   }
-  #b {
-    margin-top: 50px;
-    margin-left: 195.5px;
+  #b{
+    top:50;
+    right:50;
   }
-#c {
-    margin-top: 96px;
-    margin-left: 50px;
+  #c{
+    left:50;
+    bottom:50;
   }
-  #d {
-    margin-top: 90px;
-    margin-left: 195.5px;
-  } 
+  #d{
+    bottom:50;
+    right:50;
+  }
 </style>
