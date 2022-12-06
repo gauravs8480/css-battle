@@ -1,9 +1,10 @@
-<div class="mid"></div>
-<div class ="left"></div>
-<div class="right"></div>
+<div id="mid"></div>
+<div id ="left"></div>
+<div id="right"></div>
 <style>
   
 div{
+position:absolute;
 width: 100px;
 height: 100px;
 background:#F7EC7D; 
@@ -13,15 +14,17 @@ body{
 background:#62306D;
 }
   
-.mid {
-margin: 0 142px;
-margin-top:50px;
-border-radius: 50px 50px 0 0; 
+#mid {
+top:50;
+left:150;
+transform: rotate(180deg);
 }
-.left{
-margin-left:42px;
+#left{
+top:150;
+left:50;
 }
-.right{
-transform:translate(242px,-100px);
+#right{
+top:150;
+left:250;
 } 
 </style>
