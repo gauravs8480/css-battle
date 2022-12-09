@@ -12,5 +12,5 @@
 ##### #9 [Tesseract](battle1%239.html)
 ##### #10 [Cloaked Spirits](battle1%2310.html)
 ##### #11 [Eye of Sauron](battle1%2311.html)
-
+##### #12 [Wiggly Moustache](battle1%2312.html)
 
